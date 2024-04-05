@@ -1,0 +1,62 @@
+for (size_t j = 1; j <= tam2; j++)
+{//falta tratar ints negativos----
+      setbuf(stdin, NULL);
+      printf("Digite o nome do jogador [%i]: ", times[i].id[i]);
+      fgets(times[i].time.jogador, 30, stdin);
+      times[i].time.jogador[strcspn(times[i].time.jogador,"\n")]='\0';
+      setbuf(stdin, NULL);
+      
+      printf("Digite o numero da camisa dele: ");
+      scanf("%d", &times[i].time.numero_jogador);
+      
+      printf("Digite a idade dele: ");
+      scanf("%d", &times[i].time.idade);
+
+      printf("Digite a altura dele: ");
+      scanf("%f", &times[i].time.altura);
+
+      printf("Digite a nacionalidade do jogador: ");
+      fgets(times[i].time.nacionalidade, 20, stdin);
+      times[i].time.nacionalidade[strcspn(times[i].time.nacionalidade,"\n")]='\0';
+      setbuf(stdin, NULL);
+
+      printf("Digite as liga do time: ");
+      
+     
+
+}//for
+
+}//for
+
+}//cadastro
+
+   /*void remove (Time times[], int tam, int tam2){
+   int escolha = 0;
+   char time[20];
+   printf("[1] Para remover um time apartir do nome ");   
+   printf("[2] Para remover um time apartir do jogador ");   
+   scanf("%d", &escolha);
+
+   if (escolha == 1)
+   {
+      printf("Digite o nome do time: ");
+      fgets(time, 20, stdin);
+      time[strcspn(time,"\n")]='\0';
+      setbuf(stdin, NULL);
+      for (size_t i = 0; i < tam; i++)
+      {
+         
+      }//for
+      
+
+   }if (escolha == 2)
+   {
+      
+   } 
+  
+   
+   
+
+   }  //remove 
+
+*/

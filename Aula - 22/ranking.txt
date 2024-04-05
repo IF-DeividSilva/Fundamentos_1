@@ -1,0 +1,5 @@
+joao  1000 
+xe  200 
+paulo  3000 
+maior  276447232 
+menor  1 
